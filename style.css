@@ -1,0 +1,140 @@
+body {
+  background-color: #EDF0F7;
+  margin: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+.title {
+  margin: 60px 0 0 0;
+  font-size: 40px;
+  color: #424242;
+}
+.subtitle {
+  font-size: 15px;
+  color: gray;
+  margin: 0 0 50px 0;
+}
+.example {
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: white;
+  width: 350px;
+  margin: 0 0 10px 0;
+  color: #424242;
+}
+.search_box {
+  position: fixed;
+  bottom: 30px;
+  border: 2px solid white;
+  padding: 15px 15px 15px 50px;
+  border-radius: 10px;
+  width: 650px;
+  transition-duration: 0.2s;
+  color: gray;
+  font-size: 15px;
+}
+.search_box:focus {
+  transition-duration: 0.2s;
+  outline: none;
+  border: 2px solid #6784FF;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 25
+}
+.search {
+  position: fixed;
+  bottom: 44px;
+  left: 65px;
+  color: gray;
+}
+.arrow {
+  cursor: pointer;
+  color: white;
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+  padding: 14px;
+  border-radius: 10px;
+  background-color: #6784FF;
+}
+.arrow:active {
+  animation: press 0.2s;
+}
+@keyframes press {
+  0% {background-color: #6784FF;}
+  50% {background-color: #4d6dff;}
+  100% {background-color: #6784FF;}
+}
+.user_input {
+  background-color: #6784FF;
+  margin: 0 40px 0 0;
+  padding: 20px;
+  color: white;
+  font-size: 15px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  float: right;
+  max-width: 550px;
+}
+.user_img {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+}
+.req_wrapper {
+  position: relative;
+  visibility: hidden;
+}
+.response {
+  background-color: white;
+  padding: 20px;
+  color: #404040;
+  margin: 0 0 0 40px;
+  font-size: 15px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  float: left;
+  max-width: 550px;
+}
+.robot {
+  position: absolute;
+  bottom: 0;
+}
+.res_wrapper {
+  position: relative;
+  visibility: hidden;
+}
+.spinner {
+  display: none;
+  width: 70px;
+  text-align: center;
+}
+.spinner__bounce {
+  width: 10px;
+  height: 10px;
+  background-color: #bfbfbf;
+  border-radius: 100%;
+  display: inline-block;
+  animation: bouncedelay 1.4s infinite ease-in-out both;
+    animation-delay: 0s;
+}
+.spinner__bounce--1 {
+  animation-delay: -0.32s;
+}
+.spinner__bounce--2 {
+  animation-delay: -0.16s;
+}
+@keyframes bouncedelay {
+  0%, 80%, 100% {
+      transform: scale(0);
+  } 
+  40% {
+     transform: scale(1);
+  }
+}

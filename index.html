@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>ChatBot</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <center>
+    <div class="welcome_screen" id="welcome_screen">
+      <div class="title">Welcome Back!</div>
+      <div class="subtitle">How may I help you?</div>
+      <div class="example">Explain quantum computing in simple terms</div>
+      <div class="example">Give creative ideas for a 10 year old's birthday</div>
+      <div class="example">Integrate the function f(x)=2x sin(x^2+1) with respect to x</div>
+      <div class="example">What's the weather like in Bareilly, India?</div>
+      <div class="example">What is the stock price of Tata Steel Ltd?</div>
+    </div>
+  </center>
+  <input type="text" class="search_box" placeholder="Type your query..." id="query">
+  <span class="material-symbols-outlined search">search</span>
+  <span class="material-symbols-outlined arrow" onclick="submitQuery()">arrow_upward</span>
+  <div class="req_wrapper" id="reqWrapper">
+    <img src="profile.png" width="30px" class="user_img">
+    <span id="userInput" class="user_input"></span>
+  </div>
+  <div class="res_wrapper" id="resWrapper">
+    <img src="robot.png" width="30px" class="robot">
+    <div id="response" class="response">
+      <div class="spinner" id="animation-overlay">
+        <div class="spinner__bounce spinner__bounce--1"></div>
+        <div class="spinner__bounce spinner__bounce--2"></div>
+        <div class="spinner__bounce spinner__bounce--3"></div>
+      </div>
+    </div>
+  </div>
+  <script src="eel.js"></script>
+</body>
+
+</html>
