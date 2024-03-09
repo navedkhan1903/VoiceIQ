@@ -17,14 +17,18 @@ https://www.linkedin.com/posts/navedkhan2002_chatbot-python-activity-70681331249
 **Backend Technologies:**
 
 - Python
-
-**Miscellaneous:**
-
 - Eel
+
+**APIs:**
+
 - OpenAI API
+- Wolfram|Alpha API
+
+**Libraries:**
+
 - BeautifulSoup
-- SpeechRecognition Library
-- Google Text-to-Speech Library
+- SpeechRecognition
+- Google Text-to-Speech
 
 **Version Control:**
 
