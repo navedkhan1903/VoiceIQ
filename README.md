@@ -42,6 +42,11 @@ https://www.linkedin.com/posts/navedkhan2002_chatbot-python-activity-70681331249
 - Generative Replies
 - Real-time Data Retrieval
 
+## Screenshots
+
+[![Screenshot-258.png](https://i.postimg.cc/vmqJ28Q2/Screenshot-258.png)](https://postimg.cc/cK3krStf)
+[![Screenshot-259.png](https://i.postimg.cc/76jpDBJg/Screenshot-259.png)](https://postimg.cc/MMbsmmDT)
+
 ## Feedback
 
 If you have any feedback, please reach out to me at navedkhan19032002@gmail.com.
